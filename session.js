@@ -40,7 +40,7 @@ $(document).ready(function()
                 }
                 var input = $('#userInput').val();
 
-                if (input == answer) // Correct
+                if (input.toLowerCase() == answer.toLowerCase()) // Correct
                 {
                     $('#card').css("background", "#28a745"); // Green BG
                     characters.splice(currentCharacter, 1); // Remove question from array

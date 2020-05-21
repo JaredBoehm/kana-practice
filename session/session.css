@@ -1,0 +1,90 @@
+body {
+    background:#1a1a1a;
+    margin: 0px;
+    text-align: center;
+}
+
+.nav {
+    background: #1a1a1a;
+    padding: 1rem;
+    text-align: left;
+}
+
+#home {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #ffff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    outline: none;
+
+    -webkit-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+       -moz-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+         -o-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+            transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#home:hover {
+    background: #fff;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+#card {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 90%;
+
+    -webkit-box-shadow: 0 1rem 2rem 0 rgba(0,0,0,.5);
+            box-shadow: 0 1rem 2rem 0 rgba(0,0,0,.5);
+}
+
+#card::selection {
+    background: #fff;
+    color: #343a40;
+}
+
+#card img {
+    height: 3rem;
+    width: auto;
+}
+
+#userInput {
+    background: #1a1a1a;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    outline: none;
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+}
+
+#userInput::selection {
+    background: #ffffff;
+    color: #1a1a1a;
+}
+
+#userInput:disabled {
+    background: none;
+}
+
+.completed-msg {
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+
+    -webkit-box-shadow: 0 1rem 2rem 0 rgba(0,0,0,.5);
+            box-shadow: 0 1rem 2rem 0 rgba(0,0,0,.5);
+}
+
+.green {
+    color: #28a745;
+}

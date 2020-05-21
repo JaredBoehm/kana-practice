@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="session.css">
     <script src="data.js"></script>
     <script src="session.js"></script>
-    <title>Session</title>
+    <title>セッション</title>
 </head>
 <body>
-    <div class="nav"><a id="home" href="index.html">ホマ</a></div>
-    <div id="card"></div>
-    <input id="userInput" type="text" maxlength="20" placeholder="Answer..." 
-    onfocus="this.placeholder = ''" 
-    onblur ="this.placeholder = 'Answer...'"> 
+    <div class="nav">
+        <div id="home">ホマ</div>
+    </div>
+    <div id="sessionWrapper">
+        <div id="card"></div>
+        <input id="userInput" type="text" maxlength="20" placeholder="レスポンス…" 
+        onfocus="this.placeholder = ''" 
+        onblur ="this.placeholder = 'レスポンス…'"> 
+    </div>
 </body>
 </html>
